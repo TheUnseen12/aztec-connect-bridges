@@ -115,7 +115,7 @@ Structure of the bit-string is as follows (starting at the least significant bit
 | ------------ | ---------- | ----------------- | ----------------------------------------------- |
 | 0            | 32         | `bridgeAddressId` | id of bridge smart contract address             |
 | 32           | 30         | `inputAssetA`     | asset id of 1st input asset                     |
-| 62           | 30         | `inputAssetB`     | asset id of 1st input asset                     |
+| 62           | 30         | `inputAssetB`     | asset id of 2nd input asset                     |
 | 92           | 30         | `outputAssetA`    | asset id of 1st output asset                    |
 | 122          | 30         | `outputAssetB`    | asset id of 2nd output asset                    |
 | 152          | 32         | `bitConfig`       | flags that describe asset types                 |
